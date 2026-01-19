@@ -40,8 +40,12 @@ const Header = () => {
               }}
               className="text-3xl font-bold"
             >
-              <Link href={"/"}>
-                MD <span className="text-emerald-500">.</span> MAHEDI
+              <Link href="/">
+                <div className="text-2xl md:text-3xl font-bold cursor-pointer">
+                  {"<"} MD <span className="text-emerald-500">.</span> MAHEDI{" "}
+                  {""}
+                  {"/>"}
+                </div>
               </Link>
             </motion.div>
             <motion.div

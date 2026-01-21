@@ -20,7 +20,7 @@ const Hero = () => {
   };
 
   return (
-    <section className="min-h-[80vh] flex items-center py-20">
+    <section className="min-h-[90vh] flex items-center py-20">
       <Container>
         <motion.div
           variants={containerVariants}
